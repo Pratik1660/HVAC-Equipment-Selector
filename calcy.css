@@ -1,0 +1,114 @@
+#req1{
+    color:red;
+    font-weight: bold;
+}
+
+#req2{
+    color:rgb(230, 12, 113);
+    font-weight: bold;
+}
+#req3{
+    color:blueviolet;
+    font-weight: bold;
+}
+#req4{
+    color:green;
+    font-weight: bold;
+}
+
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #req1,
+  #req2,
+  #req3,
+  #req4 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Styling for Chilled Water Pump section */
+  .Chwpump,
+  .Cdwpump,
+  .pumpcomm,
+  .Chiller {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .Chwpump p,
+  .Cdwpump p,
+  .pumpcomm p,
+  .Chiller p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for Chilled Water Pump section */
+  .Chwpump label,
+  .Cdwpump label,
+  .pumpcomm label,
+  .Chiller label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for Pump Commissioning section */
+  .Cdwpump,
+  .pumpcomm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  /* Styling for Cooling Tower Selection section */
+  .Chiller {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }

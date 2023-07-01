@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="calcy.css" />
+  <title>HVAC Equipment Selector</title>
+
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>HVAC Equipment Selector </h1>
+        
+            <div class="Chwpump">
+                <p><b>CHILLED WATER PUMP SELECTION</b></p>
+
+                <div><label for="tr">CHILLER TR</label>
+                    <input type="number" id="tr" >
+                </div>
+                <div><label for="temdif">AHU Coil Temperature difference (°C) </label>
+                    <input type="number" id="temdif">
+                </div>
+                <div><label for="pipedia">MS Pipe dia (in mm) </label>
+                    <input type="number" id="pipedia">
+                </div>
+                <div><label for="pipelength">Total pipe length(in mtr) </label>
+                    <input type="number" id="pipelength">
+                </div>
+
+                <input type="submit" id="one">
+                <p id='req1'></p>
+            </div>
+
+            <div class="Cdwpump">
+                <p><b>CONDENSER WATER PUMP SELECTION</b></p>
+
+                <div><label for="chillertr2">CHILLER TR</label>
+                    <input type="number" id="tr2" >
+                </div>
+                <div><label for="mulfac">Condenser Side Multiplication factor </label>
+                    <input type="number" id="mulfac">
+                </div>
+                <div><label for="temdif2">Condenser Temperature difference (°C) </label>
+                    <input type="number" id="temdif2">
+                </div>
+                <div><label for="pipedia2">MS Pipe dia (in mm) </label>
+                    <input type="number" id="pipedia2">
+                </div>
+                <div><label for="pipelength2">Total pipe length(in mtr) </label>
+                    <input type="number" id="pipelength2">
+                </div>
+
+                <input type="submit" id="two">
+                <p id='req2'></p>
+            </div>
+
+            <div class="pumpcomm">
+                <p><b>PUMP COMMISIONING</b></p>
+
+                <div><label for="hz">RPM at 50Hz frequency </label>
+                    <input type="number" id="hz">
+                </div>
+                <div><label for="rpm">Required RPM </label>
+                    <input type="number" id="rpm">
+                </div>
+                
+                <input type="submit" id="three">
+                <p id='req3'></p>
+            </div>
+
+            <div class="Chiller">
+                <p><b>COOLING TOWER SELECTION</b></p>
+
+                <div><label for="flow">Condenser water side flow(GPM)</label>
+                    <input type="number" id="flow" >
+                </div>
+                <div><label for="inlet">Water inlet temp of CT (in °C)</label>
+                    <input type="number" id="inlet">
+                </div>
+                <div><label for="outlet">Wet bulb temperature at that particular location (in °C)</label>
+                    <input type="number" id="outlet">
+                </div>
+
+                <input type="submit" id="four">
+                <p id='req4'></p>
+            </div>
+                
+
+        </div>
+
+        <script src="calcy.js"> </script>
+
+
+    </body>
+
+</html>
